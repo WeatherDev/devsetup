@@ -20,6 +20,10 @@ alias cdbrands="cd /software/dist/newspaper/newspaper/brands"
 alias cdpapers="cd /software/dist/newspaper/newspaper/papers"
 alias cdscrapers="cd /prod/www/apache/htdocs/autoasp/scrapers"
 alias cdmachines="cd /software/dist/types"
+alias b="cd /prod/www/branddata/"
+alias debug="hdfdump /tmp/sfoutandabout.debug > /tmp/bph; vim /tmp/bph"
+
+#source ~/.bashrc
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
